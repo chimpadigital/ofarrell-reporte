@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'Archer Book';
+    src: url('../fonts/Archer-Book.eot');
+    src: url('../fonts/Archer-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Archer-Book.woff2') format('woff2'),
+        url('../fonts/Archer-Book.woff') format('woff'),
+        url('../fonts/Archer-Book.ttf') format('truetype'),
+        url('../fonts/Archer-Book.svg#Archer-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archer Bold';
+    src: url('../fonts/Archer-Bold.eot');
+    src: url('../fonts/Archer-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Archer-Bold.woff2') format('woff2'),
+        url('../fonts/Archer-Bold.woff') format('woff'),
+        url('../fonts/Archer-Bold.ttf') format('truetype'),
+        url('../fonts/Archer-Bold.svg#Archer-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optician Sans';
+    src: url('../fonts/OpticianSans-Regular.eot');
+    src: url('../fonts/OpticianSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OpticianSans-Regular.woff2') format('woff2'),
+        url('../fonts/OpticianSans-Regular.woff') format('woff'),
+        url('../fonts/OpticianSans-Regular.ttf') format('truetype'),
+        url('../fonts/OpticianSans-Regular.svg#OpticianSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --azul: #244154;
+    --rosa: #F6AB76;
+    --gris: #888888;
+    --oliva: #9D9357;
+    --crema: #F0E2C4;
+    --hover: #345A74;
+    --mostaza: #E7A53B;
+    --celeste: #9DC9C9;
+    --ladrillo: #A94D1A;
+    --ArcherBook: 'Archer Book', Arial, Helvetica, sans-serif;
+    --ArcherBold: 'Archer Bold', Arial, Helvetica, sans-serif;
+    --OpticianSans: 'Optician Sans', Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-size: 18px;
+    line-height: 20px;
+    font-family: var(--ArcherBook);
+    color: var(--azul);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--OpticianSans);
+}
+
+strong {
+    font-family: var(--ArcherBold);
+}
+
+p.sub {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: var(--ArcherBook);
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 60px;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 48px;
+}
+
+h3 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+h3.b {
+    font-size: 40px;
+    line-height: 40px;
+    font-family: var(--ArcherBook);
+}
+
+h4 {
+    font-size: 32px;
+    line-height: 36px;
+}
+
+h5 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+h6 {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+/* Utiles */
+.w-max-content {
+    width: max-content;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.mb-300 {
+    margin-bottom: 300px;
+}
+
+.OpticianSans {
+    font-family: var(--OpticianSans);
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-20 {
+    font-size: 20px !important;
+}
+
+.fc-ladrillo {
+    color: var(--ladrillo);
+}
+
+.fc-mostaza {
+    color: var(--mostaza);
+}
+
+.fc-celeste {
+    color: var(--celeste);
+}
+
+.fc-gris {
+    color: var(--gris);
+}
+
+.bg-azul {
+    background: var(--azul);
+}
+
+.border-azul, hr {
+    opacity: 1;
+    border-color: var(--azul);
+}
+
+.underline:after {
+    content: '';
+    right: 0;
+    width: 100%;
+    position: absolute;
+}
+
+.underline.b3:after {
+    height: 3px;
+    bottom: -4px;
+}
+
+.underline.b1:after {
+    height: 1px;
+    bottom: -10px;
+}
+
+.underline.ladrillo:after {
+    background: var(--ladrillo);
+}
+
+.underline.mostaza:after {
+    background: var(--mostaza);
+}
+
+.underline.crema:after {
+    background: var(--crema);
+}
+
+.underline.azul:after {
+    background: var(--azul);
+}
+
+.underline.blanco:after {
+    background: white;
+}
+
+header {
+    height: 100vh;
+    background: url(../img/bg-portada.jpg) left top no-repeat;
+    background-size: cover;
+}
+
+.img {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
