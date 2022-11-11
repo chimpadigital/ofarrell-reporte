@@ -224,3 +224,15 @@ header {
     bottom: 0;
     position: absolute;
 }
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    font-size: 30px !important;
+}
+
+.nav-link {
+    color: #E7A53B;
+}
+
+.nav-link:hover {
+    color: #E7A53B;
+}
