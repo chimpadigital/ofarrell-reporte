@@ -1,6 +1,6 @@
 const data = {
     datasets: [{
-        data: [67.14, 0.70, 32.15],
+        data: [89.00, 0.49, 10,51],
         backgroundColor: [
             'rgb(36, 65, 84)',
             'rgb(157, 201, 201)',
@@ -16,6 +16,6 @@ const config = {
 };
 
 const myChart = new Chart(
-    document.getElementById('chartOct'),
+    document.getElementById('chartNov'),
     config
 );
