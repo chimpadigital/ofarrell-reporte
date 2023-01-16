@@ -229,6 +229,13 @@ header {
     font-size: 30px !important;
 }
 
+.nav-tabs{
+    position: sticky;
+    top: 0;
+    background: white;
+    padding-top: 30px;
+}
+
 .nav-link {
     color: #E7A53B;
 }
